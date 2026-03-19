@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakay</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 70px 20px 50px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3.2rem;
+            font-weight: 300;
+            letter-spacing: 6px;
+        }
+        h2 {
+            font-size: 1.9rem;
+            color: #2c3e50;
+            text-align: center;
+            margin: 60px 0 30px;
+            font-weight: 400;
+        }
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .photo-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            transition: all 0.4s;
+        }
+        .photo-grid img:hover {
+            transform: scale(1.04);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        .content {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 25px;
+        }
+        ul {
+            font-size: 1.25rem;
+            list-style: none;
+            padding: 0;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        ul li {
+            padding: 16px 25px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 50px 20px 30px;
+            color: #888;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elisha Marie C. Dakay</h1>
+    </header>
+    <div class="photo-grid">
+        <img src="C:/Users/carlv/Downloads/Photography from vehicle.jpg" alt="Photography from vehicle">
+        <img src="C:/Users/carlv/Downloads/Holding Canon camera.jpg" alt="Holding Canon camera">
+        <img src="C:/Users/carlv/Downloads/Raw vs Edited.jpg" alt="Raw vs Edited">
+    </div>
+    <div class="content">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Cooking</li>
+            <li>Reading</li>
+            <li>Doing chores</li>
+            <li>Photography</li>
+            <li>Editing</li>
+            <li>Business</li>
+            <li>Drawing</li>
+            <li>Traveling</li>
+            <li>Videography</li>
+            <li>Documenting</li>
+        </ul>
+    </div>
+    <footer>
+        Personal Webpage • Elisha Marie C. Dakay
+    </footer>
+</body>
+</html>
